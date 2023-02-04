@@ -13,6 +13,8 @@ read -s -p "Enter your password: " password
 echo
 echo "Password entered: $password"
 
+read yes
+read 123123
 
 echo "bye"
 echo
