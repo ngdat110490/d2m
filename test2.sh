@@ -1,8 +1,9 @@
 #!/bin/bash
 
-echo hello
+echo 'hello'
 
 sudo -s
+id
 sudo apt update && apt upgrade -y
 sudo apt install -y -q build-essential g++ make
 sudo ufw allow 443
