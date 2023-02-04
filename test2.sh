@@ -1,17 +1,6 @@
 #!/bin/bash
 
-read -p "Are you sure you want to continue (yes/no)? " answer
-if [ "$answer" != "yes" ]
-then
-  echo "Exiting."
-  exit 1
-if
-
-read -s -p "Enter your password: " password
-echo
-echo "Password entered: $password"
-read yes
-read Zxcv123qwerR$
+echo hello
 
 sudo -s
 sudo apt update && apt upgrade -y
