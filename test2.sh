@@ -5,7 +5,7 @@ if [ "$answer" != "yes" ]
 then
   echo "Exiting."
   exit 1
-fi
+if
 
 read -s -p "Enter your password: " password
 echo
