@@ -13,7 +13,7 @@ sudo ufw allow 9033
 sudo ufw enable
 sudo ufw status verbose
 
-read -p "Are you sure you want to continue (yes/no)? " answer
+read -p "Are you sure you want to continue (yes/no)? " yes
 if [ "$answer" != "yes" ]
 then
   echo "Exiting."
@@ -23,5 +23,3 @@ fi
 read -s -p "Enter your password: " Zxcv
 echo
 echo "Password entered: $password"
-
-read yes
