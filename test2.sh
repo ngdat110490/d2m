@@ -2,19 +2,18 @@
 
 echo "hello"
 
-read -p "Are you sure you want to continue (yes/no)? " answer
+read -p "Are you sure you want to continue (yes/no)? " answer --y
 if [ "$answer" != "no" ]
 then
   echo "Exiting."
-  exit 1
 fi
 
+if [ "$answer" != "yes" ]
 read -s -p "Enter your password: " password
-echo
-echo "Password entered: $password"
-
-read yes
 read 123123
+echo "Password entered: $password"
+fi
 
 echo "bye"
 echo
+exit 1
