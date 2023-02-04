@@ -12,3 +12,7 @@ fi
 read -s -p "Enter your password: " Zxcv
 echo
 echo "Password entered: $password"
+
+
+echo 'bye'
+echo
