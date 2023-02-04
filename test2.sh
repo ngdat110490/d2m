@@ -2,7 +2,7 @@
 
 echo "hello"
 
-read -p "Are you sure you want to continue (yes/no)? " answer --y
+yes | read -p "Are you sure you want to continue (yes/no)? " answer
 if [ "$answer" != "no" ]
 then
   echo "Exiting."
