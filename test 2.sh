@@ -1,6 +1,10 @@
 #!/bin/bash
 #
 
+check_root(){
+  [[ $(id -u) != 0 ]] && red " The script must be run as root, you can enter sudo -i and then download and run again." && exit 1
+}
+
 sudo -s
 echo "Update"
 sudo apt update && apt upgrade -y
