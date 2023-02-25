@@ -20,3 +20,4 @@ sudo ufw allow 30304
 sudo ufw allow 30333
 yes | sudo ufw enable
 sudo ufw reload
+sudo chmod 777 /root
