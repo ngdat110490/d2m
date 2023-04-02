@@ -1,6 +1,5 @@
 #!/bin/bash
 
-sudo apt update && apt upgrade -y
 sudo ufw allow 443
 sudo ufw allow 22
 yes | sudo ufw enable
