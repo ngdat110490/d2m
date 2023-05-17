@@ -12,9 +12,9 @@ sudo ./meson_cdn config set --token=ulwagplbgbyqlwynegwliupa --https_port=443 --
 sudo ./service start meson_cdn
 #"gaga"
 cd
-curl -o app-linux-amd64.tar.gz https://assets.coreservice.io/public/package/22/app/1.0.3/app-1_0_3.tar.gz && tar -zxf app-linux-amd64.tar.gz && rm -f app-linux-amd64.tar.gz && cd ./app-linux-amd64 && sudo ./app service install
-sudo ./app service start
+curl -o apphub-linux-amd64.tar.gz https://assets.coreservice.io/public/package/60/app-market-gaga-pro/1.0.4/app-market-gaga-pro-1_0_4.tar.gz && tar -zxf apphub-linux-amd64.tar.gz && rm -f apphub-linux-amd64.tar.gz && cd ./apphub-linux-amd64 && sudo ./apphub service install
+sudo ./apphub service start
 sleep 60
-sudo ./apps/gaganode/gaganode config set --token=colksbbgnadotlxqc2eb5db4e871e083
-./app restart
+sudo ./apps/gaganode/gaganode config set --token=xhgdisxcpaeexgrp1ba1f595c8e35758
+./apphub restart
 cd
