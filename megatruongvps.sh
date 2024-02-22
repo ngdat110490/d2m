@@ -8,7 +8,7 @@ sudo chmod 777 /root
 #"meson"
 cd
 wget 'https://staticassets.meson.network/public/meson_cdn/v3.1.20/meson_cdn-linux-amd64.tar.gz' && tar -zxf meson_cdn-linux-amd64.tar.gz && rm -f meson_cdn-linux-amd64.tar.gz && cd ./meson_cdn-linux-amd64 && sudo ./service install meson_cdn
-sudo ./meson_cdn config set --token=ssgrtokicxymslgx4b45b3fef2ca9be4 --https_port=443 --cache.size=30
+sudo ./meson_cdn config set --token=vfntgsfbnvyibcob24c2a56ae1512818 --https_port=443 --cache.size=30
 sudo ./service start meson_cdn
 #"gaga"
 cd
